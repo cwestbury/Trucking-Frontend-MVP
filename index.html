@@ -1,0 +1,12 @@
+<!-- <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD65jbnOj5fCjDhuK5FAb9tSdvtydQUJo&callback=initMap">
+</script> -->
+<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry"></script>
+<script type = "text/javascript" src = "drivingScript.js"></script>
+<link rel="stylesheet" type="text/css" href="master.css">
+<div id="tools">start:
+  <input type="text" name="start" id="start" value="union square, NY" />end:
+  <input type="text" name="end" id="end" value="times square, NY" />
+  <input type="submit" onclick="calcRoute();" />
+</div>
+<div id="map_canvas" style="width:100%;height:90%;"></div>
